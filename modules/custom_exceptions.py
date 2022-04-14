@@ -1,0 +1,2 @@
+class NamentlicheAbstimmungNotSupportedError(Exception):
+    pass
