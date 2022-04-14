@@ -1,19 +1,15 @@
 # Bundestags protocol content converter
 
-> Note: the script fails for a majority and protocols in its current state. It was also only tested with protocols from the 18. Wahlperiode (2013-2017).
+> Note: the script fails for a majority of protocols in its current state. It was also only tested with protocols from the 18. Wahlperiode (2013-2017).
 
 A script for parsing the content of PDF protocols of the German parliament, the Bundestag, older than 2017 into the XML format used to document the more recent Wahlperioden. The definition of this format can be found [here](https://www.bundestag.de/resource/blob/577234/4c8091d8650fe417016bb48e604e3eaf/dbtplenarprotokoll_kommentiert-data.pdf).
 
 All successfully converted documents can be found in the `3_output` directory of this repository.
 
----
-
 ## Prerequisites
 
 - Python 3 (written in version 3.9)
 - A Python environment with [PDFminer](https://pypi.org/project/pdfminer) and [beautifulsoup4](https://pypi.org/project/beautifulsoup4/) installed
-
----
 
 ## Repo folder structure
 
@@ -35,17 +31,15 @@ All successfully converted documents can be found in the `3_output` directory of
 
 `mdbs`: modules used by the main script. separated for easier code readability
 
----
-
 ## Usage
 
 Paste the source files in the corresponding input folders (see above), then, with the root folder of this directory as the current working directory, run:
 
-`python main.py`
+```
+python main.py
+```
 
 The script will attempt to parse all files in the input folders and skip generating the finalized XML file, should any script-caused-exceptions be encountered (e.g. the script will still terminate if an input pdf file cannot find corresponding ToC file). HTML and JSON files may still be generated in the `2_intermediate` directory, though their content is usually invalid too, if no XML file was generated.
-
----
 
 ## Parse quality
 
@@ -67,8 +61,6 @@ Note that these were manually tested for only the first 100 out of 245 protocols
   - 9 (zusatz-top assigend incorrectly), 16, 236 (xml not well formed)
 - Skipped (other error while parsing):
   - 6, 18, 27, 28, 31, 34, 37, 38, 40, 41, 49, 50, 51, 52, 55, 58, 59, 61, 62, 64, 67, 68, 71, 74, 77, 80, 83, 84, 85, 86, 95, 96, 98
-
----
 
 ## Issues
 
