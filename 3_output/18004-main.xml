@@ -5,7 +5,7 @@
 		<a id="S1" name="S1" typ="druckseitennummer" />
 	</sitzungsbeginn>
 	<tagesordnungspunkt top-id="Tagesordnungspunkt 1">
-		<rede id="ID18000000">
+		<rede id="ID180040100">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -39,7 +39,7 @@
 			<kommentar>(Heiterkeit)</kommentar>
 			<p>frage ich Sie der guten Ordnung halber: Nehmen Sie die Wahl an?</p>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180040200">
 			<p klasse="redner">
 				<redner id="11001478">
 					<name>
@@ -52,7 +52,7 @@
 			<p>Herr Präsident, ich nehme die Wahl an und bedanke mich für das Vertrauen.</p>
 			<kommentar>(Langanhaltender Beifall bei der CDU/CSU und der SPD – Beifall beim BÜNDNIS 90/ DIE GRÜNEN – Die Abgeordneten der CDU/ CSU und der SPD erheben sich – Abgeordnete aller Fraktionen beglückwünschen Bundeskanzlerein Dr. Angela Merkel – Abg. Thomas Oppermann [SPD] überreicht ihr einen Blumenstrauß)</kommentar>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180040300">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -68,7 +68,7 @@
 		</rede>
 	</tagesordnungspunkt>
 	<tagesordnungspunkt top-id="Tagesordnungspunkt 2">
-		<rede id="ID18000000">
+		<rede id="ID180040400">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -91,7 +91,7 @@
 			<kommentar>(Die Anwesenden erheben sich)</kommentar>
 			<p>Frau Bundeskanzlerin, ich halte hier die Urschrift des Grundgesetzes in der Hand und bitte Sie, den in Art. 56 vorgesehenen Eid zu leisten.</p>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180040500">
 			<p klasse="redner">
 				<redner id="11001478">
 					<name>
@@ -102,7 +102,7 @@
 				</redner>Dr. Angela Merkel, Bundeskanzlerin:</p>
 			<p>Ich schwöre, dass ich meine Kraft dem Wohle des deutschen Volkes widmen, seinen Nutzen mehren, Schaden von ihm wenden, das Grundgesetz und die Gesetze des Bundes wahren und verteidigen, meine Pflichten gewissenhaft erfüllen und Gerechtigkeit gegen jedermann üben werde. So wahr mir Gott helfe.</p>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180040600">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -116,7 +116,7 @@
 				</redner>Präsident Dr. Norbert Lammert:</p>
 			<p>Frau Bundeskanzlerin, Sie haben den im Grundgesetz vorgesehenen Eid geleistet. Ich bekräftige noch einmal die guten Wünsche für das heute erneut übernommene Amt und wünsche Ihnen in Ihrem Amt Erfolg und Gottes Segen.</p>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180040700">
 			<p klasse="redner">
 				<redner id="11001478">
 					<name>
@@ -128,7 +128,7 @@
 			<p>Herzlichen Dank.</p>
 			<kommentar>(Anhaltender Beifall bei der CDU/CSU und der SPD – Beifall bei der LINKEN und dem BÜNDNIS 90/DIE GRÜNEN)</kommentar>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180040800">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -146,7 +146,7 @@
 		</rede>
 	</tagesordnungspunkt>
 	<tagesordnungspunkt top-id="Tagesordnungspunkt 3">
-		<rede id="ID18000000">
+		<rede id="ID180040900">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -165,7 +165,7 @@
 		</rede>
 	</tagesordnungspunkt>
 	<tagesordnungspunkt top-id="Tagesordnungspunkt 4">
-		<rede id="ID18000000">
+		<rede id="ID180041000">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -183,7 +183,7 @@
 			<p>Ich darf zunächst den Bundesminister Sigmar Gabriel zu mir bitten.<a id="S4" name="S4" typ="druckseitennummer" />
 			</p>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180041100">
 			<p klasse="redner">
 				<redner id="11003755">
 					<name>
@@ -194,7 +194,7 @@
 			<p>Herr Präsident, ich schwöre es, so wahr mir Gott helfe.</p>
 			<kommentar>(Beifall)</kommentar>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180041200">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -208,7 +208,7 @@
 				</redner>Präsident Dr. Norbert Lammert:</p>
 			<p>Herr Bundesminister Dr. Steinmeier.</p>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180041300">
 			<p klasse="redner">
 				<redner id="11004167">
 					<name>
@@ -220,7 +220,7 @@
 			<p>Herr Bundestagspräsident, ich schwöre es, so wahr mir Gott helfe.</p>
 			<kommentar>(Beifall)</kommentar>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180041400">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -234,7 +234,7 @@
 				</redner>Präsident Dr. Norbert Lammert:</p>
 			<p>Herr Minister Dr. de Maizière.</p>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180041500">
 			<p klasse="redner">
 				<redner id="11004105">
 					<name>
@@ -247,7 +247,7 @@
 			<p>Herr Bundestagspräsident, ich schwöre es, so wahr mir Gott helfe.</p>
 			<kommentar>(Beifall)</kommentar>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180041600">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -261,7 +261,7 @@
 				</redner>Präsident Dr. Norbert Lammert:</p>
 			<p>Jetzt kommt der Bundesminister der Justiz und für Verbraucherschutz, Heiko Maas.</p>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180041700">
 			<p klasse="redner">
 				<redner id="11004809">
 					<name>
@@ -272,7 +272,7 @@
 			<p>Herr Präsident, ich schwöre es, so wahr mir Gott helfe.</p>
 			<kommentar>(Beifall)</kommentar>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180041800">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -286,7 +286,7 @@
 				</redner>Präsident Dr. Norbert Lammert:</p>
 			<p>Herr Minister Dr. Schäuble.</p>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180041900">
 			<p klasse="redner">
 				<redner id="11001938">
 					<name>
@@ -298,7 +298,7 @@
 			<p>Herr Präsident, ich schwöre es, so wahr mir Gott helfe.</p>
 			<kommentar>(Beifall)</kommentar>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180042000">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -312,7 +312,7 @@
 				</redner>Präsident Dr. Norbert Lammert:</p>
 			<p>Frau Bundesministerin Nahles.</p>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180042100">
 			<p klasse="redner">
 				<redner id="11003196">
 					<name>
@@ -323,7 +323,7 @@
 			<p>Herr Präsident, ich schwöre es, so wahr mir Gott helfe.</p>
 			<kommentar>(Beifall)</kommentar>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180042200">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -337,7 +337,7 @@
 				</redner>Präsident Dr. Norbert Lammert:</p>
 			<p>Herr Bundesminister Friedrich.</p>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180042300">
 			<p klasse="redner">
 				<redner id="11003124">
 					<name>
@@ -350,7 +350,7 @@
 			<p>Ich schwöre es, so wahr mir Gott helfe.</p>
 			<kommentar>(Beifall)</kommentar>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180042400">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -364,7 +364,7 @@
 				</redner>Präsident Dr. Norbert Lammert:</p>
 			<p>Frau Bundesministerin von der Leyen.</p>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180042500">
 			<p klasse="redner">
 				<redner id="11004092">
 					<name>
@@ -377,7 +377,7 @@
 			<p>Herr Präsident, ich schwöre es, so wahr mir Gott helfe.</p>
 			<kommentar>(Beifall)</kommentar>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180042600">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -391,13 +391,13 @@
 				</redner>Präsident Dr. Norbert Lammert:</p>
 			<p>Frau Bundesministerin Schwesig.</p>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180042700">
 			<p klasse="redner">
 				<redner id="None" />Manuela Schwesig, Bundesministerin für Familie, Senioren, Frauen und Jugend:</p>
 			<p>Herr Präsident, ich schwöre es, so wahr mir Gott helfe.</p>
 			<kommentar>(Beifall)</kommentar>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180042800">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -411,7 +411,7 @@
 				</redner>Präsident Dr. Norbert Lammert:</p>
 			<p>Herr Bundesminister Gröhe.</p>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180042900">
 			<p klasse="redner">
 				<redner id="11002666">
 					<name>
@@ -422,7 +422,7 @@
 			<p>Herr Präsident, ich schwöre es, so wahr mir Gott helfe.</p>
 			<kommentar>(Beifall)</kommentar>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180043000">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -436,7 +436,7 @@
 				</redner>Präsident Dr. Norbert Lammert:</p>
 			<p>Herr Bundesminister Dobrindt.</p>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180043100">
 			<p klasse="redner">
 				<redner id="11003516">
 					<name>
@@ -447,7 +447,7 @@
 			<p>Ich schwöre es, so wahr mir Gott helfe.</p>
 			<kommentar>(Beifall)</kommentar>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180043200">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -461,7 +461,7 @@
 				</redner>Präsident Dr. Norbert Lammert:</p>
 			<p>Frau Bundesministerin Dr. Hendricks.</p>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180043300">
 			<p klasse="redner">
 				<redner id="11002672">
 					<name>
@@ -473,7 +473,7 @@
 			<p>Herr Präsident, ich schwöre es, so wahr mir Gott helfe.</p>
 			<kommentar>(Beifall)</kommentar>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180043400">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -489,13 +489,13 @@
 			<p>Dr.<a id="S5" name="S5" typ="druckseitennummer" />
 			</p>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180043500">
 			<p klasse="redner">
 				<redner id="None" />Johanna Wanka, Bundesministerin für Bildung:</p>
 			<p>und Forschung: Herr Präsident, ich schwöre es, so wahr mir Gott helfe.</p>
 			<kommentar>(Beifall)</kommentar>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180043600">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -509,7 +509,7 @@
 				</redner>Präsident Dr. Norbert Lammert:</p>
 			<p>Herr Bundesminister Dr. Müller.</p>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180043700">
 			<p klasse="redner">
 				<redner id="11002742">
 					<name>
@@ -521,7 +521,7 @@
 			<p>Herr Präsident, ich schwöre es, so wahr mir Gott helfe.</p>
 			<kommentar>(Beifall)</kommentar>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180043800">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -535,7 +535,7 @@
 				</redner>Präsident Dr. Norbert Lammert:</p>
 			<p>Herr Bundesminister Altmaier.</p>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180043900">
 			<p klasse="redner">
 				<redner id="11002617">
 					<name>
@@ -545,7 +545,7 @@
 				</redner>Peter Altmaier, Bundesminister für besondere Aufgaben:</p>
 			<p>Herr Präsident, ich schwöre es, so wahr mir Gott helfe.</p>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180044000">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -560,7 +560,7 @@
 			<p>Mit besonders guten Wünschen!</p>
 			<kommentar>(Heiterkeit)</kommentar>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180044100">
 			<p klasse="redner">
 				<redner id="11002617">
 					<name>
@@ -571,7 +571,7 @@
 			<p>Danke schön.</p>
 			<kommentar>(Beifall)</kommentar>
 		</rede>
-		<rede id="ID18000000">
+		<rede id="ID180044200">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>

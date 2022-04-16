@@ -73,7 +73,7 @@ def pipeline(file_id):
         json.dump(assigned_sprecher, f, indent="\t")
 
     out_xml = generate_out_xml(
-        assigned_sprecher, sprecher, mdb_inverted_index, mdb_relevant_data)
+        assigned_sprecher, sprecher, mdb_inverted_index, mdb_relevant_data, file_id)
     with open("3_output/" + file_id + "-main.xml", "wb") as f:
         f.write('<?xml version="1.0" encoding="UTF-8" ?>\n<!DOCTYPE dbtplenarprotokoll SYSTEM "dbtplenarprotokoll.dtd">\n'.encode('utf8'))
         tree = ET.ElementTree(out_xml)

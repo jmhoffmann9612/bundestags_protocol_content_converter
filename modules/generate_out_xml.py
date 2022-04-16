@@ -6,7 +6,10 @@ from modules.utilities import unique_elements
 from modules.constants import ROLES_LIST_REGEX, REGEX_BEGINN, REGEX_SCHLUSS, MISSING_FROM_STAMMDATEN
 
 
-def generate_out_xml(json_data, sprecher, mdb_inverted_index, mdb_relevant_data):
+def generate_out_xml(json_data, sprecher, mdb_inverted_index, mdb_relevant_data, file_id):
+
+    wahlperiode = file_id[:2]
+    sitzungsnummer = file_id[2:]
 
     sprecher_id_dict = {}
     for x in sprecher:
@@ -52,7 +55,8 @@ def generate_out_xml(json_data, sprecher, mdb_inverted_index, mdb_relevant_data)
     next_top_index = 0
     # list of uniques, preserving order
     tops = list(dict.fromkeys([x['top'] for x in data]))
-    tops.append(None) # avoid index out of range
+    tops.append(None)  # avoid index out of range
+    current_speech_index = 0
     for el_dict in data:
         if el_dict['sprecher'] == "KOMMENTAR":
             el_komm = ET.SubElement(el_rede, "kommentar")
@@ -79,9 +83,9 @@ def generate_out_xml(json_data, sprecher, mdb_inverted_index, mdb_relevant_data)
             else:
                 el_current_top = ET.SubElement(root, "tagesordnungspunkt", {
                     "top-id": "Tagesordnungspunkt " + str(current_top)})
-            # TODO: id (this is a placeholder)
+            current_speech_index += 1
             el_rede = ET.SubElement(
-                el_current_top, "rede", {'id': "ID18000000"})
+                el_current_top, "rede", {'id': f"ID{wahlperiode}{sitzungsnummer}{current_speech_index:02d}00"})
             el_redner = ET.SubElement(el_rede, "p", {'klasse': 'redner'})
             redner_id = sprecher_id_dict[current_sprecher]
             if redner_id is not None:
@@ -125,8 +129,9 @@ def generate_out_xml(json_data, sprecher, mdb_inverted_index, mdb_relevant_data)
             # DUPLICATE WITH ABOVE
             current_sprecher = el_dict['sprecher']
             # el_current_top = ET.SubElement(root, "tagesordnungspunkt", {"top-id": str(current_top)})
+            current_speech_index += 1
             el_rede = ET.SubElement(
-                el_current_top, "rede", {'id': "ID18000000"})  # TODO: id
+                el_current_top, "rede", {'id': f"ID{wahlperiode}{sitzungsnummer}{current_speech_index:02d}00"})  # TODO: id
             el_redner = ET.SubElement(el_rede, "p", {'klasse': 'redner'})
             redner_id = sprecher_id_dict[current_sprecher]
             el_redner_detail = ET.SubElement(
