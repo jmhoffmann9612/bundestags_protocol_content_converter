@@ -72,7 +72,9 @@ def generate_out_xml(json_data, sprecher, mdb_inverted_index, mdb_relevant_data)
             else:
                 el_current_top = ET.SubElement(root, "tagesordnungspunkt", {
                     "top-id": "Tagesordnungspunkt " + str(current_top)})
-            el_rede = ET.SubElement(el_current_top, "rede")  # TODO: id
+            # TODO: id (this is a placeholder)
+            el_rede = ET.SubElement(
+                el_current_top, "rede", {'id': "ID18000000"})
             el_redner = ET.SubElement(el_rede, "p", {'klasse': 'redner'})
             redner_id = sprecher_id_dict[current_sprecher]
             if redner_id is not None:
@@ -98,7 +100,7 @@ def generate_out_xml(json_data, sprecher, mdb_inverted_index, mdb_relevant_data)
                 rolle = re.match(ROLES_LIST_REGEX, current_sprecher)
                 if rolle:
                     el_name.remove(el_titel) if el_titel in el_name else None
-                    el_rolle = ET.SubElement(el_redner_detail, "rolle")
+                    el_rolle = ET.SubElement(el_name, "rolle")
                     el_rolle_lang = ET.SubElement(el_rolle, "rolle_lang")
                     el_rolle_lang.text = rolle.group(0)
                     el_rolle_kurz = ET.SubElement(el_rolle, "rolle_kurz")
@@ -116,7 +118,8 @@ def generate_out_xml(json_data, sprecher, mdb_inverted_index, mdb_relevant_data)
             # DUPLICATE WITH ABOVE
             current_sprecher = el_dict['sprecher']
             # el_current_top = ET.SubElement(root, "tagesordnungspunkt", {"top-id": str(current_top)})
-            el_rede = ET.SubElement(el_current_top, "rede")  # TODO: id
+            el_rede = ET.SubElement(
+                el_current_top, "rede", {'id': "ID18000000"})  # TODO: id
             el_redner = ET.SubElement(el_rede, "p", {'klasse': 'redner'})
             redner_id = sprecher_id_dict[current_sprecher]
             el_redner_detail = ET.SubElement(

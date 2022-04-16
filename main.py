@@ -14,6 +14,7 @@ from modules.generate_out_xml import generate_out_xml
 from modules.custom_exceptions import NamentlicheAbstimmungNotSupportedError
 
 files_list = os.listdir('1_input/content_pdf')
+files_list.remove(".gitignore")
 
 
 def pipeline(filename):
@@ -58,10 +59,11 @@ def pipeline(filename):
 
     out_xml = generate_out_xml(
         assigned_sprecher, sprecher, mdb_inverted_index, mdb_relevant_data)
-    tree = ET.ElementTree(out_xml)
-    ET.indent(out_xml, space="\t", level=0)
-    tree.write("3_output/" + file_id + "-main.xml",
-               encoding="utf-8", xml_declaration=True)
+    with open("3_output/" + file_id + "-main.xml", "wb") as f:
+        f.write('<?xml version="1.0" encoding="UTF-8" ?>\n<!DOCTYPE dbtplenarprotokoll SYSTEM "dbtplenarprotokoll.dtd">\n'.encode('utf8'))
+        tree = ET.ElementTree(out_xml)
+        ET.indent(out_xml, space="\t", level=0)
+        tree.write(f, encoding="utf-8", xml_declaration=False)
 
 
 def main():

@@ -1,20 +1,21 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE dbtplenarprotokoll SYSTEM "dbtplenarprotokoll.dtd">
 <sitzungsverlauf>
 	<sitzungsbeginn sitzung-start-uhrzeit="11:00">
 		<a id="S1" name="S1" typ="druckseitennummer" />
 	</sitzungsbeginn>
 	<tagesordnungspunkt top-id="Tagesordnungspunkt 1">
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11001849">
 					<name>
 						<vorname>Alterspräsident Dr. Heinz</vorname>
 						<nachname>Riesenhuber</nachname>
+						<rolle>
+							<rolle_lang>Alterspräsident</rolle_lang>
+							<rolle_kurz>Alterspräsident</rolle_kurz>
+						</rolle>
 					</name>
-					<rolle>
-						<rolle_lang>Alterspräsident</rolle_lang>
-						<rolle_kurz>Alterspräsident</rolle_kurz>
-					</rolle>
 				</redner>Alterspräsident Dr. Heinz Riesenhuber:</p>
 			<p>Guten Morgen, meine Damen und Herren!</p>
 			<kommentar>(Zurufe: Guten Morgen, Herr Präsident!)</kommentar>
@@ -26,17 +27,17 @@
 		</rede>
 	</tagesordnungspunkt>
 	<tagesordnungspunkt top-id="Tagesordnungspunkt 1">
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11001849">
 					<name>
 						<vorname>Alterspräsident Dr. Heinz</vorname>
 						<nachname>Riesenhuber</nachname>
+						<rolle>
+							<rolle_lang>Alterspräsident</rolle_lang>
+							<rolle_kurz>Alterspräsident</rolle_kurz>
+						</rolle>
 					</name>
-					<rolle>
-						<rolle_lang>Alterspräsident</rolle_lang>
-						<rolle_kurz>Alterspräsident</rolle_kurz>
-					</rolle>
 				</redner>Alterspräsident Dr. Heinz Riesenhuber:</p>
 			<p>Eröffnung der Sitzung durch den Alterspräsidenten</p>
 			<p>Ich habe die Ehre und die Freude, mit Ihnen zusammen in meiner Eigenschaft als Alterspräsident die erste Sitzung der 18. Wahlperiode zu eröffnen. Ich begrüße den Herrn Bundespräsidenten. Herr Bundespräsident, wir freuen uns, dass Sie bei uns sind.</p>
@@ -93,22 +94,22 @@
 		</rede>
 	</tagesordnungspunkt>
 	<tagesordnungspunkt top-id="Tagesordnungspunkt 2">
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11001849">
 					<name>
 						<vorname>Alterspräsident Dr. Heinz</vorname>
 						<nachname>Riesenhuber</nachname>
+						<rolle>
+							<rolle_lang>Alterspräsident</rolle_lang>
+							<rolle_kurz>Alterspräsident</rolle_kurz>
+						</rolle>
 					</name>
-					<rolle>
-						<rolle_lang>Alterspräsident</rolle_lang>
-						<rolle_kurz>Alterspräsident</rolle_kurz>
-					</rolle>
 				</redner>Alterspräsident Dr. Heinz Riesenhuber:</p>
 			<p>Wahl des Präsidenten verbunden mit Namensaufruf und Feststellung der Beschlussfähigkeit</p>
 			<p>Mit der Wahl des Präsidenten des Deutschen Bundestages werden der Namensaufruf der Mitglieder des Deutschen Bundestages und die Feststellung der Beschlussfähigkeit verbunden. Ich bitte um Vorschläge zur Wahl. – Herr Abgeordneter Kauder.</p>
 		</rede>
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11001074">
 					<name>
@@ -120,7 +121,7 @@
 			<p>Herr Alterspräsident, ich schlage im Namen der CDU/CSU-Bundestagsfraktion unseren Kollegen Professor Dr. Norbert Lammert vor.</p>
 			<kommentar>(Beifall im ganzen Hause)</kommentar>
 		</rede>
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11001849">
 					<name>
@@ -152,7 +153,7 @@
 			<kommentar>(Beifall im ganzen Hause)</kommentar>
 			<p>Herr Dr. Lammert, ich frage Sie: Nehmen Sie die Wahl an?</p>
 		</rede>
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -166,7 +167,7 @@
 			</p>
 			<kommentar>(Beifall im ganzen Hause – Abgeordnete aller Fraktionen gratulieren dem Präsidenten)</kommentar>
 		</rede>
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11001849">
 					<name>
@@ -182,22 +183,22 @@
 		</rede>
 	</tagesordnungspunkt>
 	<tagesordnungspunkt top-id="Tagesordnungspunkt 3">
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11001849">
 					<name>
 						<vorname>Alterspräsident Dr. Heinz</vorname>
 						<nachname>Riesenhuber</nachname>
+						<rolle>
+							<rolle_lang>Alterspräsident</rolle_lang>
+							<rolle_kurz>Alterspräsident</rolle_kurz>
+						</rolle>
 					</name>
-					<rolle>
-						<rolle_lang>Alterspräsident</rolle_lang>
-						<rolle_kurz>Alterspräsident</rolle_kurz>
-					</rolle>
 				</redner>Alterspräsident Dr. Heinz Riesenhuber:</p>
 			<p>Amtsübernahme durch den Präsidenten</p>
 			<p>mit Ansprache</p>
 		</rede>
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -282,40 +283,40 @@
 		</rede>
 	</tagesordnungspunkt>
 	<tagesordnungspunkt top-id="Tagesordnungspunkt 4">
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
 						<vorname>Präsident Dr. Norbert</vorname>
 						<nachname>Lammert</nachname>
+						<rolle>
+							<rolle_lang>Präsident</rolle_lang>
+							<rolle_kurz>Präsident</rolle_kurz>
+						</rolle>
 					</name>
-					<rolle>
-						<rolle_lang>Präsident</rolle_lang>
-						<rolle_kurz>Präsident</rolle_kurz>
-					</rolle>
 				</redner>Präsident Dr. Norbert Lammert:</p>
 			<p>Beschlussfassung über die – Geschäftsordnung des Deutschen Bundestages – Gemeinsame Geschäftsordnung des Bundestages und des Bundesrates für den Ausschuss nach Art. 77 des Grundgesetzes (Vermittlungsausschuss) – Geschäftsordnung für den Gemeinsamen Ausschuss – Geschäftsordnung für das Verfahren nach Art. 115 d des Grundgesetzes – Richtlinien zur Überprüfung auf eine Tätigkeit oder politische Verantwortung für das Ministerium für Staatssicherheit/Amt für Nationale Sicherheit der ehemaligen Deutschen Demokratischen Republik</p>
 			<p>Wer stimmt für den Antrag auf der Drucksache 18/1 dieser Legislaturperiode? – Wer stimmt dagegen? – Wer enthält sich? – Damit ist dieser Antrag mit großer Mehrheit bei Stimmenthaltung der Fraktion Bündnis 90/Die Grünen und einiger Mitglieder der Fraktion Die Linke angenommen. Ich rufe den Tagesordnungspunkt 5 auf:</p>
 		</rede>
 	</tagesordnungspunkt>
 	<tagesordnungspunkt top-id="Tagesordnungspunkt 5">
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
 						<vorname>Präsident Dr. Norbert</vorname>
 						<nachname>Lammert</nachname>
+						<rolle>
+							<rolle_lang>Präsident</rolle_lang>
+							<rolle_kurz>Präsident</rolle_kurz>
+						</rolle>
 					</name>
-					<rolle>
-						<rolle_lang>Präsident</rolle_lang>
-						<rolle_kurz>Präsident</rolle_kurz>
-					</rolle>
 				</redner>Präsident Dr. Norbert Lammert:</p>
 			<p>Festlegung der Zahl der Stellvertreter des Präsidenten</p>
 			<p>Nach unserer Geschäftsordnung soll im Präsidium des Deutschen Bundestages jede Fraktion mindestens mit einem Mitglied vertreten sein. Hierzu liegt ein Antrag der Fraktionen der CDU/CSU und SPD vor, sechs Stellvertreter zu wählen, wobei die stärkste Fraktion sowie die nächstgrößere Fraktion jeweils zwei Stellvertreter des Präsidenten stellen. Interfraktionell ist zu diesem Tagesordnungspunkt eine Diskussionsrunde vereinbart worden. – Dazu darf ich Ihr Einvernehmen feststellen. Dann ist das so beschlossen. Wer möchte zunächst dazu das Wort ergreifen? – Die Opposition ist sich interessanterweise nicht einig. Dann beginnt der Kollege Grosse-Brömer. Bitte schön.</p>
 			<kommentar>(Beifall bei der CDU/CSU)</kommentar>
 		</rede>
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11003541">
 					<name>
@@ -335,7 +336,7 @@
 			<p>– Sechs stellvertretende Präsidenten, pardon; insgesamt sieben Mitglieder des Präsidiums. Ich will auch darauf hinweisen, dass nach meiner Einschätzung – dies ging auch aus der Ansprache unseres frisch gewählten Bundestagspräsidenten hervor – weder die Arbeitsbelastung noch die Probleme, vor denen wir stehen, kleiner werden. Infolgedessen macht es Sinn, ein starkes Präsidium zu haben. Das bezieht sich auf den Umfang. Das bezieht sich auch auf die Persönlichkeiten, die sich hier zur Verfügung stellen. Ich sage es fraktionsübergreifend: Ich bin der Auffassung, dass wir nachher sehr respektable Kandidaten zur Auswahl haben. Deswegen bitte ich abschließend darum, diesem Antrag zuzustimmen. Lassen Sie uns gerne intensiv streiten über die richtigen Wege, über die richtige Politik in diesem Hause. Lassen Sie uns aber nicht um einen stellvertretenden Präsidentenposten streiten. Es gibt Wichtigeres: Die Aufgaben, die vor uns liegen, sind größer. Darüber müssen wir nicht nur ins Gespräch kommen, darüber müssen wir auch in Streit kommen – ich freue mich darauf –: unter der Führung und Leitung eines starken und guten Präsidiums. Herzlichen Dank.</p>
 			<kommentar>(Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD)</kommentar>
 		</rede>
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -350,7 +351,7 @@
 			<p>Das Wort hat nun die Kollegin Petra Sitte für die Fraktion Die Linke.</p>
 			<kommentar>(Beifall bei der LINKEN)</kommentar>
 		</rede>
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11003848">
 					<name>
@@ -388,7 +389,7 @@
 			<p>Wie Sie merken, ist vieles in diesem Zusammenhang unklar. Außerdem entsteht der Eindruck, dass es sich hier um eine willkürliche Praxis handelt. Sie klopfen sich sozusagen auf Ihre parlamentarische Brust und warten auf Großraumgeräusche. Wir finden das ziemlich kleingeistig.</p>
 			<kommentar>(Beifall bei der LINKEN sowie bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN)</kommentar>
 		</rede>
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -402,7 +403,7 @@
 				</redner>Präsident Dr. Norbert Lammert:</p>
 			<p>Frau Sitte.</p>
 		</rede>
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11003848">
 					<name>
@@ -415,7 +416,7 @@
 			<p>Ich bin sofort fertig. – Dabei hatte Herr Riesenhuber heute schon von den Höhen des Geistes in diesem Haus gesprochen. Ich finde, wir sollten an die gute parlamentarische Praxis anknüpfen. Es besteht auch aufgrund der konkreten Erfahrungen derjenigen, die schon Mitglied des Bundestages waren, überhaupt keine Veranlassung, die Zahl der Vizepräsidenten zu erhöhen. Die demokratische Führung der bisherigen Präsidien nach dem alten Prinzip war gut. Danke schön.</p>
 			<kommentar>(Beifall bei der LINKEN und dem BÜNDNIS 90/DIE GRÜNEN)</kommentar>
 		</rede>
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -429,7 +430,7 @@
 				</redner>Präsident Dr. Norbert Lammert:</p>
 			<p>Für die SPD-Fraktion hat nun der Kollege Thomas Oppermann das Wort.</p>
 		</rede>
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11003820">
 					<name>
@@ -451,7 +452,7 @@
 			<p>Wir werden darüber reden, und wir werden einen Konsens bekommen. Vielen Dank.</p>
 			<kommentar>(Beifall bei der SPD und der CDU/CSU)</kommentar>
 		</rede>
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -465,7 +466,7 @@
 				</redner>Präsident Dr. Norbert Lammert:</p>
 			<p>Nun erhält noch die Kollegin Britta Haßelmann für die Fraktion Bündnis 90/Die Grünen das Wort.</p>
 		</rede>
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11003764">
 					<name>
@@ -493,7 +494,7 @@
 			<p>Sie treten heute hier den Beweis dafür an. Wir lehnen diesen Antrag ab. Selbstverständlich ist das keine Entscheidung gegen die einzelnen Personen, die hier vorgeschlagen werden; um auch das in aller Deutlichkeit zu sagen. Vielen Dank für die Aufmerksamkeit.</p>
 			<kommentar>(Beifall beim BÜNDNIS 90/DIE GRÜNEN und bei der LINKEN)</kommentar>
 		</rede>
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -509,17 +510,17 @@
 		</rede>
 	</tagesordnungspunkt>
 	<tagesordnungspunkt top-id="Tagesordnungspunkt 6">
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
 						<vorname>Präsident Dr. Norbert</vorname>
 						<nachname>Lammert</nachname>
+						<rolle>
+							<rolle_lang>Präsident</rolle_lang>
+							<rolle_kurz>Präsident</rolle_kurz>
+						</rolle>
 					</name>
-					<rolle>
-						<rolle_lang>Präsident</rolle_lang>
-						<rolle_kurz>Präsident</rolle_kurz>
-					</rolle>
 				</redner>Präsident Dr. Norbert Lammert:</p>
 			<p>Wahl der Stellvertreter des Präsidenten</p>
 			<p>Nach unserer Geschäftsordnung erfolgt auch die Wahl der Vizepräsidenten geheim. Interfraktionell haben wir vereinbart, die Wahlen der Kandidatinnen und Kandidaten mit Wahlausweis und einer Stimmkarte durchzuführen, auf der alle vorgeschlagenen Kandidatinnen und Kandidaten aufgeführt sind. Erhebt sich dagegen Widerspruch? – Das ist offensichtlich nicht der Fall. Dann können wir so verfahren. Mir liegen folgende Vorschläge der Fraktionen vor: von der Fraktion der CDU/CSU die Kollegen Peter Hintze und Johannes Singhammer, von der Fraktion der SPD die Kolleginnen Edelgard Bulmahn und Ulla Schmidt, von der Fraktion Die Linke die Kollegin Petra Pau sowie von der Fraktion Bündnis 90/Die Grünen die Kollegin Claudia Roth. Werden weitere Vorschläge gemacht? – Das ist nicht der Fall. Ich darf auch hier einige wenige Hinweise zum Ablauf der Wahl geben. Gewählt ist, wer die Stimmen der Mehrheit der Mitglieder des Bundestags erhält; das sind 316 Stimmen. Für diesen Wahlgang sind Stimmkarte und Wahlausweis grün. Frau Kollegin Haßelmann, Sie sehen, dass ich keine Gelegenheit auslasse, meine Aufgeschlossenheit für Minderheitsinteressen zum Ausdruck zu bringen, auch schon durch die Farbgebung bei Wahlgängen.</p>
@@ -530,7 +531,7 @@
 			<kommentar>(Unterbrechung von 13.42 bis 14.52 Uhr)</kommentar>
 			<p>Die unterbrochene Sitzung ist wieder eröffnet. Liebe Kolleginnen und Kollegen, ich kann Ihnen das Ergebnis der Wahl der Stellvertreterinnen und Stellvertreter des Präsidenten bekannt geben: abgegebene Stimmkarten 626. Alle abgegebenen Stimmen waren gültig. Von den abgegebenen Stimmen sind entfallen auf Peter Hintze 449 Jastimmen, 122 Neinstimmen und 51 Enthaltungen. In diesem Falle, was mich ein bisschen überrascht, waren 4 Stimmen ungültig. Das heißt, es gibt keine Stimmkarte, die insgesamt ungültig war, was ja doch auf eine gewisse Pfiffigkeit der neuen wie der alten Kollegen schließen lässt, aber bei einzelnen Wahlgängen ist das offenkundig anders. Noch einmal: 449 Jastimmen, 122 Neinstimmen, 51 Enthaltungen. Ich darf das mit Ihrem Einverständnis gleich mit der Frage an die jeweiligen Kolleginnen und Kollegen verbinden, ob sie die Wahl annehmen. Ich darf den Kollegen Hintze, der damit die notwendige Mehrheit erkennbar erreicht hat, fragen, ob er die Wahl annimmt.</p>
 		</rede>
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11000907">
 					<name>
@@ -543,7 +544,7 @@
 			<kommentar>(Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD und des BÜNDNISSES 90/DIE GRÜNEN)</kommentar>
 			<p>Auf den Kollegen Johannes Singhammer sind bei 6 ungültigen Stimmen 442 Jastimmen, 115 Neinstimmen und 63 Enthaltungen entfallen. Auch er hat damit die notwendige Mehrheit eindeutig und klar erreicht. Ich darf ihn fragen, ob er die Wahl annimmt.</p>
 		</rede>
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11002800">
 					<name>
@@ -555,7 +556,7 @@
 			<p>Ich danke für den Vertrauensvorschuss und nehme die Wahl gerne an.</p>
 			<kommentar>(Beifall im ganzen Hause)</kommentar>
 		</rede>
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -571,7 +572,7 @@
 			<kommentar>(Beifall im ganzen Hause)</kommentar>
 			<p>50 Kolleginnen und Kollegen haben mit Nein gestimmt, 36 haben sich der Stimme enthalten. Frau Bulmahn, ich darf auch Sie fragen, ob Sie die Wahl annehmen.</p>
 		</rede>
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11000305">
 					<name>
@@ -584,7 +585,7 @@
 			<p>Auch ich bedanke mich für das Vertrauen, und ich nehme die Wahl gerne an.</p>
 			<kommentar>(Beifall im ganzen Hause)</kommentar>
 		</rede>
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -600,7 +601,7 @@
 			<kommentar>(Beifall im ganzen Hause)</kommentar>
 			<p>66 Kollegen oder Kolleginnen haben mit Nein gestimmt, 35 haben sich der Stimme enthalten. 5 Stimmen waren ungültig. Ich bin zuversichtlich, Frau Schmidt, dass Sie die Frage ähnlich beantworten wie die bisher angesprochenen Kolleginnen und Kollegen.</p>
 		</rede>
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11002019">
 					<name>
@@ -613,7 +614,7 @@
 			<p>Herr Präsident, Sie haben wie meistens recht. Ich nehme die Wahl an und bedanke mich für das große Vertrauen. Danke schön!</p>
 			<kommentar>(Beifall im ganzen Hause)</kommentar>
 		</rede>
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -629,7 +630,7 @@
 			<kommentar>(Beifall im ganzen Hause)</kommentar>
 			<p>bei 113 Neinstimmen und 45 Enthaltungen. 17 Stimmen waren in diesem Wahlvorgang ungültig. Ich darf Frau Pau fragen, ob sie die Wahl annimmt.</p>
 		</rede>
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11003206">
 					<name>
@@ -641,7 +642,7 @@
 			<p>Ja, Herr Präsident, ich nehme die Wahl gern an, und, liebe Kolleginnen und Kollegen, ich freue mich auf die weitere Zusammenarbeit.</p>
 			<kommentar>(Beifall im ganzen Hause)</kommentar>
 		</rede>
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -657,7 +658,7 @@
 			<kommentar>(Beifall im ganzen Hause – Claudia Roth [Augsburg] [BÜNDNIS 90/DIE GRÜNEN]: Präsident Dr. Norbert Lammert Ja, Herr Präsident! – Sie müssen mich erst fragen!)</kommentar>
 			<p>Ja. Ich freue mich, Sie fragen zu dürfen, ob Sie sich ernsthaft entschließen könnten, dieses Amt anzunehmen.</p>
 		</rede>
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11003212">
 					<name>
@@ -671,7 +672,7 @@
 			</p>
 			<kommentar>(Heiterkeit und Beifall im ganzen Hause)</kommentar>
 		</rede>
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
@@ -688,17 +689,17 @@
 		</rede>
 	</tagesordnungspunkt>
 	<tagesordnungspunkt top-id="Tagesordnungspunkt 7">
-		<rede>
+		<rede id="ID18000000">
 			<p klasse="redner">
 				<redner id="11001274">
 					<name>
 						<vorname>Präsident Dr. Norbert</vorname>
 						<nachname>Lammert</nachname>
+						<rolle>
+							<rolle_lang>Präsident</rolle_lang>
+							<rolle_kurz>Präsident</rolle_kurz>
+						</rolle>
 					</name>
-					<rolle>
-						<rolle_lang>Präsident</rolle_lang>
-						<rolle_kurz>Präsident</rolle_kurz>
-					</rolle>
 				</redner>Präsident Dr. Norbert Lammert:</p>
 			<p>Nationalhymne</p>
 			<p>Meine Damen und Herren, zum Abschluss der konstituierenden Sitzung des 18. Deutschen Bundestages singen wir nun unsere</p>
