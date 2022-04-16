@@ -43,7 +43,7 @@ The script will attempt to parse all files in the input folders and skip generat
 
 ## Parse quality
 
-Note that these were manually tested for only the first 100 out of 245 protocols of the 18. Wahlperiode. Only information on protocols which were skipped because they contained named votes ("Namentliche Abstimmung") is added beyond this.
+> Note: these were manually tested for only the first 100 out of 245 protocols of the 18. Wahlperiode. Only information on protocols which were skipped because they contained named votes ("Namentliche Abstimmung") is added beyond this.
 
 ### Good
 
