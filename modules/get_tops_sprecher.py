@@ -16,12 +16,11 @@ def get_tops(xml_tree):
             # deliberately set high number as default
             top = {'titel': None, 'sprecher': [], 'num': 9999}
             ivz_eintraege = ivz_block.findall("ivz-eintrag")
+            top['titel'] = ivz_eintraege[0].find("ivz-eintrag-inhalt").text
             for ivz_eintrag in ivz_eintraege:
                 inhalt = ivz_eintrag.find("ivz-eintrag-inhalt")
                 if inhalt.find("redner"):
                     top['sprecher'].append(inhalt.find("redner").tail)
-                else:
-                    top['titel'] = inhalt.text
             if titel.startswith("Zusatztagesordnungspunkt"):
                 num = titel.replace("Zusatztagesordnungspunkt ",
                                     "").replace(":", "").strip()

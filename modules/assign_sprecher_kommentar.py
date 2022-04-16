@@ -162,11 +162,11 @@ def assign_sprecher_kommentar(pages, tops, sprecher_list):
             break
 
     # assign tops
-    aktueller_top = min([int(x['num']) for x in tops if x is not None])
+    aktueller_top = str(min([int(x['num']) for x in tops if x is not None]))
     for el_dict in el_dicts_with_tops:
         txt = el_dict['text']
         if txt in TOPS_LIST:
-            aktueller_top = tops[TOPS_LIST.index(txt)]['num']
+            aktueller_top = str(tops[TOPS_LIST.index(txt)]['num'])
         elif txt in ZUSATZ_TOP_LIST:
             aktueller_top = "z" + ZUSATZ_TOP_NUMS[ZUSATZ_TOP_LIST.index(txt)]
         el_dict['top'] = aktueller_top

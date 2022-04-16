@@ -24,21 +24,6 @@
 			<p>– Hier im Haus. Vielen Dank! Ein wichtiger Hinweis. Ich hatte schon zahlreiche Vorfahren.</p>
 			<kommentar>(Heiterkeit)</kommentar>
 			<p>Ist hier im Haus jemand früher geboren? – Wenn dies nicht der Fall ist, kommen wir zu Punkt 1 der Tagesordnung:</p>
-		</rede>
-	</tagesordnungspunkt>
-	<tagesordnungspunkt top-id="Tagesordnungspunkt 1">
-		<rede id="ID18000000">
-			<p klasse="redner">
-				<redner id="11001849">
-					<name>
-						<vorname>Alterspräsident Dr. Heinz</vorname>
-						<nachname>Riesenhuber</nachname>
-						<rolle>
-							<rolle_lang>Alterspräsident</rolle_lang>
-							<rolle_kurz>Alterspräsident</rolle_kurz>
-						</rolle>
-					</name>
-				</redner>Alterspräsident Dr. Heinz Riesenhuber:</p>
 			<p>Eröffnung der Sitzung durch den Alterspräsidenten</p>
 			<p>Ich habe die Ehre und die Freude, mit Ihnen zusammen in meiner Eigenschaft als Alterspräsident die erste Sitzung der 18. Wahlperiode zu eröffnen. Ich begrüße den Herrn Bundespräsidenten. Herr Bundespräsident, wir freuen uns, dass Sie bei uns sind.</p>
 			<kommentar>(Beifall)</kommentar>

@@ -48,12 +48,18 @@ def generate_out_xml(json_data, sprecher, mdb_inverted_index, mdb_relevant_data)
     current_page = 1
     current_top = None
     current_sprecher = None
+    # track next top
+    next_top_index = 0
+    # list of uniques, preserving order
+    tops = list(dict.fromkeys([x['top'] for x in data]))
+    tops.append(None) # avoid index out of range
     for el_dict in data:
         if el_dict['sprecher'] == "KOMMENTAR":
             el_komm = ET.SubElement(el_rede, "kommentar")
             el_komm.text = el_dict['text']
             continue
-        if el_dict['top'] != current_top and el_dict['sprecher'] is None:
+        if str(el_dict['top']) == str(tops[next_top_index]) and el_dict['sprecher'] is None:
+            next_top_index += 1
             # do not cast this as str here, this breaks the code
             current_top = el_dict['top']
             if str(current_top).startswith("z"):
@@ -62,7 +68,8 @@ def generate_out_xml(json_data, sprecher, mdb_inverted_index, mdb_relevant_data)
             else:
                 el_current_top = ET.SubElement(root, "tagesordnungspunkt", {
                     "top-id": "Tagesordnungspunkt " + str(current_top)})
-        elif el_dict['top'] != current_top:
+        elif str(el_dict['top']) == str(tops[next_top_index]):
+            next_top_index += 1
             current_top = el_dict['top']  # see above
             # DUPLICATE WITH BELOW
             current_sprecher = el_dict['sprecher']

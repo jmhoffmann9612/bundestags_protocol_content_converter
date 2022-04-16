@@ -97,6 +97,7 @@ def main():
     }
     for filename in files_list:
         file_id = filename.split('.')[0]
+        print(f'---------- Processing {file_id} ----------')
         try:
             pipeline(file_id)
             report['success'].append(file_id)
