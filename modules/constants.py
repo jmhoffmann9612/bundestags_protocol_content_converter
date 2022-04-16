@@ -1,3 +1,6 @@
+RECURSION_LIMIT = 100000
+
+# TODO: below values must be set programmatically, as they may differ even for the same Wahlperiode
 PAGE_WIDTH = 612
 PAGE_HEIGHT = 859
 IS_PAGE_IF_SPAN_CONTAINS = f"width:{str(PAGE_WIDTH)}px; height:{str(PAGE_HEIGHT)}px;"
@@ -7,7 +10,6 @@ LINE_LEFT = 306
 IS_LINE_IF_SPAN_CONTAINS = f"left:{str(LINE_LEFT)}px;.*width:{LINE_WIDTH}px;"
 
 # search for side markers (A), (B), etc
-# ideally set this programatically in the future
 SIDE_MARKER_LEFT_START = 49
 SIDE_MARKER_RIGHT_START = 549
 RE_SIDE_MARKER_LEFT = f"left:{SIDE_MARKER_LEFT_START}px;"

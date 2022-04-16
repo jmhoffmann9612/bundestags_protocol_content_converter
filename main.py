@@ -1,6 +1,8 @@
 import os
 from bs4 import BeautifulSoup
 import json
+# import pickle
+# import sys  # used to increase recursion limit when pickling
 import xml.etree.ElementTree as ET
 
 from modules.parse_pdf_as_html import parse_main_as_html
@@ -13,12 +15,13 @@ from modules.assign_sprecher_kommentar import assign_sprecher_kommentar
 from modules.generate_out_xml import generate_out_xml
 from modules.custom_exceptions import NamentlicheAbstimmungNotSupportedError
 
-files_list = os.listdir('1_input/content_pdf')
-files_list.remove(".gitignore")
+### POSSIBLY REQURIED WHEN PICKLING ###
+# from modules.constants import RECURSION_LIMIT
+
+# sys.setrecursionlimit(RECURSION_LIMIT)
 
 
-def pipeline(filename):
-    file_id = filename.split('.')[0]
+def pipeline(file_id):
 
     # load header data
     with open(f"1_input/toc_xml/{file_id}-vorspann.xml", "r", encoding="utf-8") as f:
@@ -49,6 +52,18 @@ def pipeline(filename):
     pages_lists = get_pages_lists(soup)
     vert_lines = get_vert_lines(pages_lists)
     pages = get_pages(pages_lists, vert_lines)
+    # attempt at pickling pages, attempting to open the pickle will fail with an EOFError
+    # try:
+    #     with open(f'2_intermediate/ordered_el_lists/bs4_tag_pickle/{file_id}.pickle', 'wb') as f:
+    #         pickle.dump(pages, f)
+    # except RecursionError as e:
+    #     print(e)
+    #     print(f'Maximum recursion limit: {sys.getrecursionlimit()}')
+    #     print('Try increasing the RECURSION_LIMIT value in modules/constants.py')
+    #     raise
+    # dump pages text to json
+    with open(f"2_intermediate/ordered_el_lists/text_json/{file_id}.json", "w", encoding="utf-8") as f:
+        json.dump([[e.get_text() for e in p] for p in pages], f, indent="\t")
     tops = get_tops(vorspann_tree)
     sprecher = get_sprecher_from_tops(tops)
     sprecher = sprecher_speical_rules(sprecher)
@@ -67,21 +82,48 @@ def pipeline(filename):
 
 
 def main():
+    files_list = os.listdir('1_input/content_pdf')
+    files_list.remove(".gitignore")
+    report = {
+        'success': [],
+        'failure': {
+            'NamentlicheAbstimmungNotSupportedError': [],
+            'AttributeError': [],
+            'TypeError': [],
+            'AssertionError': [],
+            'ET.ParseError': [],
+            'ValueError': []
+        }
+    }
     for filename in files_list:
+        file_id = filename.split('.')[0]
         try:
-            pipeline(filename)
+            pipeline(file_id)
+            report['success'].append(file_id)
         except NamentlicheAbstimmungNotSupportedError as e:
             print(e)
+            report['failure']['NamentlicheAbstimmungNotSupportedError'].append(
+                file_id)
         except AttributeError as e:
             print(e)
+            report['failure']['AttributeError'].append(file_id)
         except TypeError as e:
             print(e)
+            report['failure']['TypeError'].append(file_id)
         except AssertionError as e:
             print(e)
+            report['failure']['AssertionError'].append(file_id)
         except ET.ParseError as e:
             print(e)
+            report['failure']['ET.ParseError'].append(file_id)
         except ValueError as e:
             print(e)
+            report['failure']['ValueError'].append(file_id)
+
+    # print and dump report
+    print(report)
+    with open('report.json', 'w', encoding="utf-8") as f:
+        json.dump(report, f)
 
 
 if __name__ == "__main__":
